@@ -49,6 +49,7 @@ public class CreateNewIncident extends PreAndPost{
 	
 	public CreateNewIncident getIncidentNumber() {	
 		incidentNumber = getAttribute(eleIncidentNumber,"value");
+		System.out.println("Generated Incident Number " +incidentNumber);
 		return this;
 	}	
 
